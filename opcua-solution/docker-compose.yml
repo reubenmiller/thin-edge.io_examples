@@ -60,7 +60,7 @@ services:
 
   gateway:
     # Image is maintained under: https://github.com/thin-edge/opcua-device-gateway-container
-    image: ghcr.io/thin-edge/opcua-device-gateway:20240106.0203
+    image: ghcr.io/thin-edge/opcua-device-gateway:20240116.1516
     restart: always
     environment:
       # OPCUA Gateway info
